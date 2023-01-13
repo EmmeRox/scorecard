@@ -25,6 +25,11 @@ button {
   padding: 5px;
 }
 
+button:hover {
+  border: 1px solid red;
+  color: red;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -53,4 +58,9 @@ button {
 
 .btn-container {
   margin: 0 0.7em 1em 0.5em;
+}
+
+.reset {
+  margin-top: 80px;
+  max-height: 20px;
 }
